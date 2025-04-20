@@ -1,13 +1,18 @@
 To start run
+
 pip install kafka-python
+
 docker-compose up -d
+
 
 Make sure Docker is running Kafka (docker-compose up -d).
 
 Start the consumer:
+
 python consumer.py
 
 Then run the producer in a separate terminal:
+
 python producer.py
 
 Optional 
