@@ -1,0 +1,14 @@
+to remove all cotainers without images removal
+docker-compose down
+
+to just stop without removing 
+docker-compose stop
+
+to start again after down
+docker-compose up -d
+
+to restart everything
+docker-compose restart
+
+to check any container
+docker ps
